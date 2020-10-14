@@ -93,6 +93,20 @@ def load_from_file(file_path):
     return matrix
 
 
+### phuong phap giai sudoku by ngocnhan2003
+## PP1
+# dung note de luu vao o tat ca cac gia tri co the so huu,
+# bang cach duyet theo hang ngang (H), hang doc (V), nhom chua (S)
+# nhung o con lai 1 note duy nhat chinh la gia tri
+#
+## PP2
+# duyet H, V, S, neu trong cac nhom chi co 1 gia tri note duy nhat -> chinh la gia tri
+#
+## PP3
+# trong H, V, S, neu 2 o co gia tri note = nhau, 2 note -> nhung o con lai se khong so huu gia tri note do
+# tuong tu voi 3 o
+
+
 matrix = load_from_file('sudoku.h.input')
 matrix.print()
 matrix.print_notes()
